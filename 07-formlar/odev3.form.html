@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odev3-form</title>
+    <style>
+       .tbody{
+           background-color: aliceblue;
+           width: 600px;
+            margin-top: 25px;
+       }
+    </style>
+</head>
+<body>
+    <form action="server/kayit.js" method="POST">
+        <input type="hidden" name="id" value="123678345" />
+
+       
+     <table>
+         <tbody>
+             <tr>
+                
+                 <td><label for>Eposta</label>
+                    <input type="text" /></td>
+                 
+             </tr>
+             <tr>
+                
+                 <td><label for="sifre">Sifre</label>
+                    <input id="sifre" type="password" /></td>
+                 
+             </tr>
+             <tr>
+                
+                 <td><label for="guvenlik">Guvenlik Kodu</label>
+                    <input type="number" id="guvenlik"></td>
+                
+             </tr>
+             <tr>
+                
+                <td><input type="submit" value="Kaydet">
+                    <input type="reset" value="Temizle"></td>
+                
+            </tr>
+         </tbody>
+       
+     
+</body>
+</html>

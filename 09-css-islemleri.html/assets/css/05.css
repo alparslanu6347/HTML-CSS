@@ -1,0 +1,15 @@
+.menu {
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    width: 300px;
+  }
+  ​
+  .aktif {
+    background-color: rgb(58, 58, 58);
+    color: white;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+    font-family: "Titillium Web", sans-serif;
+  }
